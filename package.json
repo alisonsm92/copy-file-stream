@@ -1,0 +1,27 @@
+{
+  "name": "copy-file-stream",
+  "version": "1.0.0",
+  "description": "",
+  "main": "/lib/main.js",
+  "scripts": {
+    "copy": "node ./lib/main.js",
+    "test": "./node_modules/.bin/mocha \"test/*.spec.js\" --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alisonsm92/copy-file-stream.git"
+  },
+  "keywords": [
+    "stream"
+  ],
+  "author": "alisonsm92",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alisonsm92/copy-file-stream/issues"
+  },
+  "homepage": "https://github.com/alisonsm92/copy-file-stream#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.1.1"
+  }
+}
